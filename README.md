@@ -1,16 +1,76 @@
-# React + Vite
+# Entropy-Zero: The Autonomic Social Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="public/logo.png" width="180" height="180" alt="Entropy-Zero Logo" />
+</p>
 
-Currently, two official plugins are available:
+[![Vercel Deployment](https://img.shields.io/badge/Deployment-Live-brightgreen?style=flat-square&logo=vercel)](https://entropy-zero.vercel.app)
+[![PowerPoint Deck](https://img.shields.io/badge/Presentation-PPTX-blue?style=flat-square&logo=microsoft-powerpoint)](https://github.com/jaysid97/entropy-zero/raw/main/Entropy-Zero_Pitch_Deck.pptx)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Entropy-Zero** is a futuristic, self-organizing social-computational coordination system for engineering teams. It replaces traditional, high-entropy administrative frameworks (like status updates, manual ticket routing, daily standups, and planning alignments) with a passive, telemetry-driven team nervous system.
 
-## React Compiler
+Live Web Application & Pitch Deck: **[https://entropy-zero.vercel.app](https://entropy-zero.vercel.app)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 Problem Statement
+In modern engineering organizations, teams spend up to **62% of their operational energy on "work-about-work"**—backlog grooming, coordinating assignments, daily status check calls, and manual logging in task boards. 
+*   **Coordination Decay**: As a team scales, communication pathways grow exponentially, driving actual building capacity toward zero.
+*   **Focus Fragmentation**: Constant status requests and context switches shatter developer flow states.
+*   **Static Backlogs**: Backlog boards (like Jira) become outdated instantly and fail to adapt to real-time developer fatigue and focus constraints.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Solution Overview
+Entropy-Zero models team collaboration as a self-healing biological nervous system that drives administrative overhead (coordination entropy) to zero:
+
+1.  **Passive Telemetry Workspace**: Mined from ambient workspace behaviors (IDE modifications, git logs, focus blocks, Slack chatter patterns) to build a dynamic skill and fatigue map with zero developer manual input.
+2.  **Autonomic Work Router**: Treats tickets as physical kinetic forces that automatically home in on the developer with the optimal load reserve and specialization matching. Automatically re-balances task loads during shocks (e.g. OOO events, Sev-1 outages).
+3.  **Consensus Synapse Resolver**: Auto-detects design conflicts in team chats, spins up weighted voting ballots routed to module code experts, and automatically merges changes once consensus is resolved.
+
+---
+
+## 🛠️ Technology Stack
+*   **Core Architecture**: React (Vite)
+*   **Visual Physics Engine**: HTML5 Canvas 2D API with custom spring, gravity, and repulsion forces
+*   **Design & UI System**: Custom Vanilla CSS (HSL design variables, glassmorphic filters, responsive layout structures, glowing micro-animations)
+*   **Deployment**: Hosted permanently on Vercel Edge
+
+---
+
+## 🤖 AI Models & Tools Used
+This project was developed with the assistance of Advanced Agentic AI pair programming tools, specifically using **Gemini 3.5 Flash (Medium)**.
+*   **Architectural Concept**: Generating the autonomic, physics-inspired coordination model.
+*   **Code Generation**: Scaffolding the React components structure, physics calculations for Canvas node attractions, and weighted consensus calculators.
+*   **Telemetry Mocking**: Building and tuning the simulated stress injector and logger pipelines.
+*   **Widescreen Pitch Slide Design**: Writing the automated pptx-generation codebase and CSS glass cards sliders.
+
+---
+
+## 🚀 Setup & Installation
+
+To run this application locally on your machine, ensure you have [Node.js](https://nodejs.org) installed, and run:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/jaysid97/entropy-zero.git
+
+# 2. Navigate to the project directory
+cd entropy-zero
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the local development server
+npm run dev
+```
+
+*Open [http://localhost:5173/](http://localhost:5173/) in your browser to view the application.*
+
+---
+
+## 👥 Team Information
+*   **Team Name**: Team Entropy-Zero
+*   **Members**: 
+    *   **jaysid97** (Developer / Submitter)
